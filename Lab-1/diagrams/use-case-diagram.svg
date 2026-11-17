@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="open" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#333" stroke-width="1.3"/></marker></defs>
+<rect width="1000" height="620" fill="#ffffff"/>
+<rect x="130" y="15" width="730" height="590" fill="#f8fafc" stroke="#334155" stroke-width="2" rx="6"/>
+<text x="495" y="42" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">EV Charging Station Reservation System</text>
+<circle cx="60" cy="300" r="11" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<line x1="60" y1="311" x2="60" y2="345" stroke="#333" stroke-width="1.5"/>
+<line x1="42" y1="322" x2="78" y2="322" stroke="#333" stroke-width="1.5"/>
+<line x1="60" y1="345" x2="45" y2="370" stroke="#333" stroke-width="1.5"/>
+<line x1="60" y1="345" x2="75" y2="370" stroke="#333" stroke-width="1.5"/>
+<text x="60" y="388" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">EV Driver</text>
+<circle cx="940" cy="170" r="11" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<line x1="940" y1="181" x2="940" y2="215" stroke="#333" stroke-width="1.5"/>
+<line x1="922" y1="192" x2="958" y2="192" stroke="#333" stroke-width="1.5"/>
+<line x1="940" y1="215" x2="925" y2="240" stroke="#333" stroke-width="1.5"/>
+<line x1="940" y1="215" x2="955" y2="240" stroke="#333" stroke-width="1.5"/>
+<text x="940" y="258" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Station Operator</text>
+<circle cx="940" cy="420" r="11" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<line x1="940" y1="431" x2="940" y2="465" stroke="#333" stroke-width="1.5"/>
+<line x1="922" y1="442" x2="958" y2="442" stroke="#333" stroke-width="1.5"/>
+<line x1="940" y1="465" x2="925" y2="490" stroke="#333" stroke-width="1.5"/>
+<line x1="940" y1="465" x2="955" y2="490" stroke="#333" stroke-width="1.5"/>
+<text x="940" y="508" text-anchor="middle" font-size="11" fill="#475569">«system»</text>
+<text x="940" y="522" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Payment Gateway</text>
+<line x1="60.0" y1="322.0" x2="229.2" y2="115.4" stroke="#333" stroke-width="1.3"/>
+<line x1="60.0" y1="322.0" x2="220.1" y2="189.7" stroke="#333" stroke-width="1.3"/>
+<line x1="60.0" y1="322.0" x2="182.8" y2="288.4" stroke="#333" stroke-width="1.3"/>
+<line x1="60.0" y1="322.0" x2="192.3" y2="369.3" stroke="#333" stroke-width="1.3"/>
+<line x1="60.0" y1="322.0" x2="225.9" y2="494.9" stroke="#333" stroke-width="1.3"/>
+<line x1="940.0" y1="192.0" x2="792.7" y2="122.5" stroke="#333" stroke-width="1.3"/>
+<line x1="940.0" y1="192.0" x2="839.0" y2="196.1" stroke="#333" stroke-width="1.3"/>
+<line x1="940.0" y1="192.0" x2="787.1" y2="276.7" stroke="#333" stroke-width="1.3"/>
+<line x1="940.0" y1="442.0" x2="575.5" y2="365.8" stroke="#333" stroke-width="1.3"/>
+<line x1="311.7" y1="250.2" x2="438.3" y2="209.8" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<text x="375.0" y="226.0" text-anchor="middle" font-size="10.5" font-style="italic" fill="#b91c1c" stroke="#f8fafc" stroke-width="3" paint-order="stroke">«include»</text>
+<line x1="345.0" y1="270.0" x2="405.0" y2="270.0" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<text x="375.0" y="265.0" text-anchor="middle" font-size="10.5" font-style="italic" fill="#b91c1c" stroke="#f8fafc" stroke-width="3" paint-order="stroke">«include»</text>
+<line x1="311.7" y1="289.8" x2="438.3" y2="330.2" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<text x="375.0" y="324.0" text-anchor="middle" font-size="10.5" font-style="italic" fill="#b91c1c" stroke="#f8fafc" stroke-width="3" paint-order="stroke">«include»</text>
+<line x1="464.5" y1="415.9" x2="285.5" y2="294.1" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<text x="375.0" y="355.0" text-anchor="middle" font-size="10.5" font-style="italic" fill="#b91c1c" stroke="#f8fafc" stroke-width="3" paint-order="stroke">«extend»</text>
+<line x1="405.0" y1="520.0" x2="345.0" y2="520.0" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<text x="375.0" y="515.0" text-anchor="middle" font-size="10.5" font-style="italic" fill="#b91c1c" stroke="#f8fafc" stroke-width="3" paint-order="stroke">«extend»</text>
+<ellipse cx="250" cy="90" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="250" y="87.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Search Charging</text>
+<text x="250" y="101.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Stations</text>
+<text x="169" y="72" font-size="9" fill="#64748b">UC-01</text>
+<ellipse cx="250" cy="165" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="250" y="162.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Manage Vehicle</text>
+<text x="250" y="176.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Profile</text>
+<text x="169" y="147" font-size="9" fill="#64748b">UC-02</text>
+<ellipse cx="250" cy="270" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="250" y="267.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Reserve</text>
+<text x="250" y="281.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Charging Slot</text>
+<text x="169" y="252" font-size="9" fill="#64748b">UC-03</text>
+<ellipse cx="250" cy="390" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="250" y="387.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Cancel / Modify</text>
+<text x="250" y="401.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Reservation</text>
+<text x="169" y="372" font-size="9" fill="#64748b">UC-07</text>
+<ellipse cx="250" cy="520" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="250" y="517.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Start Charging</text>
+<text x="250" y="531.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Session</text>
+<text x="169" y="502" font-size="9" fill="#64748b">UC-08</text>
+<ellipse cx="500" cy="190" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="500" y="187.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Validate Connector</text>
+<text x="500" y="201.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Compatibility</text>
+<text x="419" y="172" font-size="9" fill="#64748b">UC-04</text>
+<ellipse cx="500" cy="270" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="500" y="267.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Calculate</text>
+<text x="500" y="281.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Dynamic Rate</text>
+<text x="419" y="252" font-size="9" fill="#64748b">UC-05</text>
+<ellipse cx="500" cy="350" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="500" y="347.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Process</text>
+<text x="500" y="361.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Payment</text>
+<text x="419" y="332" font-size="9" fill="#64748b">UC-06</text>
+<ellipse cx="500" cy="440" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="500" y="444.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Join Waitlist</text>
+<text x="419" y="422" font-size="9" fill="#64748b">UC-09</text>
+<ellipse cx="500" cy="520" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="500" y="517.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Apply No-Show</text>
+<text x="500" y="531.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Penalty</text>
+<text x="419" y="502" font-size="9" fill="#64748b">UC-10</text>
+<ellipse cx="745" cy="100" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="745" y="97.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Manage Chargers</text>
+<text x="745" y="111.0" text-anchor="middle" font-size="12" fill="#0c4a6e">& Status</text>
+<text x="664" y="82" font-size="9" fill="#64748b">UC-11</text>
+<ellipse cx="745" cy="200" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="745" y="197.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Configure Pricing &</text>
+<text x="745" y="211.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Penalty Rules</text>
+<text x="664" y="182" font-size="9" fill="#64748b">UC-12</text>
+<ellipse cx="745" cy="300" rx="95" ry="26" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="745" y="297.0" text-anchor="middle" font-size="12" fill="#0c4a6e">View Utilisation</text>
+<text x="745" y="311.0" text-anchor="middle" font-size="12" fill="#0c4a6e">Report</text>
+<text x="664" y="282" font-size="9" fill="#64748b">UC-13</text>
+<text x="500" y="482" text-anchor="middle" font-size="10" fill="#475569">[condition: no slot available]</text>
+<text x="500" y="562" text-anchor="middle" font-size="10" fill="#475569">[condition: no plug-in within 10 min]</text>
+</svg>

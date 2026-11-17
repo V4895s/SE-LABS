@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "EV Driver" as D
+actor "Station Operator" as O
+actor "Payment Gateway\n<<system>>" as P
+
+rectangle "EV Charging Station Reservation System" {
+  usecase "UC-01\nSearch Charging Stations" as UC1
+  usecase "UC-02\nManage Vehicle Profile" as UC2
+  usecase "UC-03\nReserve Charging Slot" as UC3
+  usecase "UC-04\nValidate Connector\nCompatibility" as UC4
+  usecase "UC-05\nCalculate Dynamic Rate" as UC5
+  usecase "UC-06\nProcess Payment" as UC6
+  usecase "UC-07\nCancel / Modify\nReservation" as UC7
+  usecase "UC-08\nStart Charging Session" as UC8
+  usecase "UC-09\nJoin Waitlist" as UC9
+  usecase "UC-10\nApply No-Show Penalty" as UC10
+  usecase "UC-11\nManage Chargers\n& Status" as UC11
+  usecase "UC-12\nConfigure Pricing &\nPenalty Rules" as UC12
+  usecase "UC-13\nView Utilisation Report" as UC13
+}
+
+D --> UC1
+D --> UC2
+D --> UC3
+D --> UC7
+D --> UC8
+O --> UC11
+O --> UC12
+O --> UC13
+UC6 -- P
+
+UC3 ..> UC4 : <<include>>
+UC3 ..> UC5 : <<include>>
+UC3 ..> UC6 : <<include>>
+UC9 ..> UC3 : <<extend>>\n[no slot available]
+UC10 ..> UC8 : <<extend>>\n[no plug-in in 10 min]
+@enduml
